@@ -14,7 +14,7 @@ By determining the output supervised learning technique divided into two types:
 
 https://media.geeksforgeeks.org/wp-content/uploads/supervised-data.png
 
-1. Classification
+01. Classification
 Classification deals with predicting categorical target variables, which represent discrete classes or labels. 
 For instance, classifying emails as spam or not spam, or predicting whether a patient has a high risk of heart disease. 
 Classification algorithms learn to map the input features to one of the predefined classes.
@@ -24,14 +24,18 @@ Here are some classification algorithms:
 1. Logistic Regression
 2. Support Vector Machine
 3. Random Forest
-4. Decision Tree
+4. Decision Tree 
 5. K-Nearest Neighbors (KNN)
 6. Naive Bayes
-7. Regression
 
-Regression, on the other hand, deals with predicting continuous target variables, which represent numerical values. For example, predicting the price of a house based on its size, location, and amenities, or forecasting the sales of a product. Regression algorithms learn to map the input features to a continuous numerical value.
 
-2. Here are some regression algorithms:
+02. Regression:
+
+Regression, on the other hand, deals with predicting continuous target variables, which represent numerical values. 
+For example, predicting the price of a house based on its size, location, and amenities, or forecasting the sales of a product. 
+Regression algorithms learn to map the input features to a continuous numerical value.
+
+Here are some regression algorithms:
 
 1. Linear Regression
 2. Polynomial Regression
@@ -67,3 +71,39 @@ Gaming: Recognize characters, analyze player behavior, and create NPCs.
 Customer support: Automate customer support tasks.
 Weather forecasting: Make predictions for temperature, precipitation, and other meteorological parameters.
 Sports analytics: Analyze player performance, make game predictions, and optimize strategies.
+
+
+
+
+Let’s summarize the supervised machine learning algorithms in table:
+
+Algorithm	                Regression,                 Purpose	                        Method	                                                   Use Cases
+                                Classification	               
+
+01. Linear Regression	        Regression	       Predict continuous                 1. Linear equation                                           Predicting continuous values
+                                                        output values	                  2. minimizing sum of squares of residuals	      
+
+02. Logistic Regression	        Classification	        Predict binary                    1.  Logistic function                                         Binary classification tasks
+                                                        output variable	                  2. transforming linear relationship	        
+
+03. Decision Trees	           Both	                Model decisions                    Tree-like structure with decisions 	                         Classification and Regression tasks 
+                                                        and outcomes	                        and outcomes
+
+04. Random Forests	           Both                	Improve classification                 Combining multiple decision trees                           1. Reducing overfitting,
+                                                        and regression accuracy                 	                                                2. improving prediction accuracy
+
+05. SVM	                           Both                	Create hyperplane for                  1.  Maximizing margin                                         Classification and Regression tasks
+                                                        classification                         between classes or 
+                                                        or predict continuous values	       2. predicting continuous values
+
+06. KNN	                           Both	                Predict class or                    1. Finding k closest neighbors and                              1.   Classification and Regression tasks, 
+                                                        value based on                      2. predicting based on majority or average                        2. sensitive to noisy data
+                                                        k closest neighbors		
+
+07. Gradient Boosting	          Both               	Combine weak learners to                 Iteratively correcting errors                             1. Classification and Regression tasks
+                                                        create strong model		               with new models                                         to improve prediction accuracy
+
+08. Naive Bayes	                Classification        	Predict class based on                 Bayes’ theorem with feature                                   1. Text classification,
+                                                        feature independence assumption	           independence assumption 	                             2.  spam filtering,  
+                                                                                                                                                             3.  sentiment analysis,
+                                                                                                                                                             4.  medical
