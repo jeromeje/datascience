@@ -1,0 +1,16 @@
+1. Machine Learning Lifecycle:
+The machine learning lifecycle is a process that guides the development and deployment of machine learning models in a structured way. It consists of various steps.
+
+Each step plays a crucial role in ensuring the success and effectiveness of the machine learning solution. By following the machine learning lifecycle, organizations can solve complex problems systematically, leverage data-driven insights, and create scalable and sustainable machine learning solutions that deliver tangible value. The steps to be followed in the machine learning lifecycle are:
+01. Problem Definition
+02. Data Collection
+03. Data Cleaning and Preprocessing
+04. Exploratory Data Analysis (EDA)
+05. Feature Engineering and Selection
+06. Model Selection
+07.  Model Training
+08. Model Evaluation and Tuning
+09. Model Deployment
+10. Model Monitoring and Maintenance
+
+
