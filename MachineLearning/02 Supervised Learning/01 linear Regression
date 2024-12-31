@@ -1,0 +1,87 @@
+1. Linear Regreession: 
+
+
+      Linear regression is a type of supervised machine learning algorithm 
+that computes the linear relationship between the dependent variable  (x)
+and one or more independent features(y)  by fitting a linear equation to observed data.
+
+Types: 
+one features independent (x)   -> 1. simple linear Regression
+more than one independent(x)  ->  2. Multiple Linear Regression
+
+one dependent  (y)                   -> 3. univariate Regression
+more than one dependent variables (y)-> 4. Multivariate Regression.
+
+01. Simple Linear Regression: 
+    y= mx+c 
+    y => Dependent variable,  x => independent Variable,  m => Slope,  c => intercept
+
+02. Multiple Linear Regression: 
+    y= m1x1 + m2x2 + m3x3+ .... + mnxn  + c 
+    y => Dependent variable,  x1,x2,x3,..., xn => independent Variable,  m1,m2,m3,...,mn => Slope,  c => intercept
+
+Note
+1. The goal of the algorithm is to find the "best Fit Line" equation that can predict the values based on the independent variables.
+
+
+Best Fit Line:- 
+    The error between the predicted and actual values should be kept to a minimum.
+
+Hypothesis function :
+
+# need to study
+
+
+
+01. Cost function for Linear Regression:-
+The cost function or the loss function is nothing but the error or difference between the predicted value  (y`)  and the true value (Y).
+In Linear Regression, the Mean Squared Error (MSE) cost function is employed, which calculates the average of the squared errors between the predicted values (y`) and the actual values (y) .
+The purpose is to determine the optimal values for the intercept (θ1) and the coefficient of the input feature (θ2) providing the best-fit line for the given data points. 
+The linear equation expressing this relationship is   y` =  (θ2  x) + θ1 .  
+MSE function can be calculated as:
+Cost function  =  1/n  ( ∑ y`  -  y )2  
+
+02. optimization :- 
+1. Gradient Descent for Linear Regression
+The optimization algorithm gradient descent by iteratively modifying the model’s parameters to reduce the mean squared error (MSE) of the model on a training dataset.
+
+03. Assumption for types: 
+Assumptions of Simple Linear Regression:- if it is not satisfied it, => accutrate is less. 
+1. Linearity  :  The independent and dependent variables have a linear relationship with one another.
+2. Independence: The observations in the dataset are independent of each other
+3. Homoscedasticity: Across all levels of the independent variable(s), the variance of the errors is constant. 
+4. Normality: This means that the residuals should follow a bell-shaped curve.
+
+
+Assumptions of Multiple Linear Regression
+1. No multicollinearity: 
+2. Additivity: 
+3. Feature Selection:
+4. Overfitting : 
+
+
+04. Evalutation:
+1. Mean Square Error (MSE)
+2. Mean Absolute Error (MAE)
+3. Root Mean Squared Error (RMSE)
+4. Coefficient of Determination (R-squared)
+5. Adjusted R-Squared Error
+
+
+
+05. Regularisation: 
+1. Lasso Regression (L1 Regularization) :- {Overfitting prevention}
+Lasso Regression is a technique used for regularizing a linear regression model, it adds a penalty term to the linear regression objective function to prevent overfitting.
+
+2. Ridge Regression (L2 Regularization) :- {Overfitting prevention}
+ The goal is to prevent overfitting by penalizing large coefficient in linear regression equation.
+
+3. Elastic Net Regression
+Elastic Net Regression is a hybrid regularization technique that combines the power of both L1 and L2 regularization in linear regression objective.
+
+
+
+06. Projects: 
+
+1. Rainfall prediction using Linear regression
+2. Boston Housing Kaggle Challenge with Linear Regression
